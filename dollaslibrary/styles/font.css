@@ -1,0 +1,9 @@
+@font-face {
+    font-family: regular;
+    src: url("MonumentExtended-Regular.otf");
+}
+
+@font-face {
+    font-family: bold;
+    src: url("MonumentExtended-Ultrabold.otf");
+}

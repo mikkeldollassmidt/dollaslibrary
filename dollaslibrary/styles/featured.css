@@ -1,0 +1,67 @@
+.pagetitle {
+    margin-top: 30px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+.ft-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    flex-wrap: wrap; /* Allows wrapping to the next line */
+}
+
+.ft-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px; /* Space between product boxes */
+    flex: 1 1 300px; /* Makes items take up available space, with a minimum width */
+    max-width: 300px; /* Ensures that the boxes don't stretch too much */
+}
+
+.ft-image-container {
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #ff0147;
+}
+
+.ft-image {
+    height: 100%;
+}
+
+.ft-icon-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    width: 100%;
+    margin-right: 50px;
+    margin-bottom: -45px;
+    z-index: 999;
+}
+
+.ft-icon {
+    margin-right: -15px;
+    height: 35px;
+}
+
+.ft-title-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: 25px;
+}
+
+.ft-title {
+    font-size: 13px;
+    color: white;
+}
